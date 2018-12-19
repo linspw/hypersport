@@ -1,0 +1,8 @@
+<Video autoPlay loop muted
+                        controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+                        onCanPlayThrough={() => {
+                            // Do stuff
+                        }}>
+                        <source src="/media/videos/Hawaii-motivational.mp4" type="video/mp4" />
+                        <track label="English" kind="subtitles" srcLang="en" src="/media/videos/Hawaii-motivational.vtt" default />
+                    </Video>
